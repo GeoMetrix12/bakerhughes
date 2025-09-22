@@ -1,0 +1,26 @@
+{
+  "assignments": {
+    "Lobby": {
+      "assigned": 6,
+      "active": true
+    },
+    "ConfA": {
+      "assigned": 0,
+      "active": false
+    },
+    "ConfB": {
+      "assigned": 0,
+      "active": false
+    },
+    "OpenOffice": {
+      "assigned": 6,
+      "active": true
+    },
+    "Cafe": {
+      "assigned": 4,
+      "active": true
+    }
+  },
+  "suggestions": [],
+  "saved_area_m2": 0
+}

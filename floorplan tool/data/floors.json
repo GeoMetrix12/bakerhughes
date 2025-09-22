@@ -1,0 +1,51 @@
+{
+  "floors": [
+    {
+      "floor_id": "F1",
+      "name": "Ground Floor",
+      "rooms": [
+        {"room_id":"Lobby","area_m2":160,"capacity":80,"zone":"Z1","is_common":true,"x":0,"y":0,"w":4,"h":2},
+        {"room_id":"Reception","area_m2":60,"capacity":10,"zone":"Z1","is_common":true,"x":4,"y":0,"w":2,"h":1},
+        {"room_id":"ConfA","area_m2":45,"capacity":12,"zone":"Z1","is_common":false,"x":6,"y":0,"w":2,"h":1},
+        {"room_id":"ConfB","area_m2":45,"capacity":12,"zone":"Z1","is_common":false,"x":6,"y":1,"w":2,"h":1},
+        {"room_id":"OpenOffice1","area_m2":240,"capacity":90,"zone":"Z2","is_common":true,"x":0,"y":2,"w":6,"h":3},
+        {"room_id":"Cafe","area_m2":110,"capacity":40,"zone":"Z2","is_common":true,"x":6,"y":2,"w":2,"h":2},
+        {"room_id":"Pantry","area_m2":35,"capacity":6,"zone":"Z2","is_common":true,"x":6,"y":4,"w":2,"h":1},
+        {"room_id":"IT-Store","area_m2":30,"capacity":4,"zone":"Z3","is_common":false,"x":8,"y":0,"w":1,"h":1},
+        {"room_id":"Restrooms-F1","area_m2":50,"capacity":0,"zone":"Z3","is_common":true,"x":8,"y":1,"w":1,"h":2}
+      ]
+    },
+    {
+      "floor_id": "F2",
+      "name": "First Floor",
+      "rooms": [
+        {"room_id":"OpenOffice2","area_m2":260,"capacity":100,"zone":"Z1","is_common":true,"x":0,"y":0,"w":6,"h":3},
+        {"room_id":"ConfC","area_m2":40,"capacity":10,"zone":"Z1","is_common":false,"x":6,"y":0,"w":2,"h":1},
+        {"room_id":"ConfD","area_m2":40,"capacity":10,"zone":"Z1","is_common":false,"x":6,"y":1,"w":2,"h":1},
+        {"room_id":"ConfE","area_m2":50,"capacity":14,"zone":"Z1","is_common":false,"x":6,"y":2,"w":2,"h":1},
+        {"room_id":"Training","area_m2":120,"capacity":40,"zone":"Z2","is_common":true,"x":0,"y":3,"w":4,"h":2},
+        {"room_id":"Lab1","area_m2":80,"capacity":20,"zone":"Z2","is_common":false,"x":4,"y":3,"w":2,"h":1},
+        {"room_id":"Lab2","area_m2":80,"capacity":20,"zone":"Z2","is_common":false,"x":4,"y":4,"w":2,"h":1},
+        {"room_id":"Server","area_m2":35,"capacity":2,"zone":"Z3","is_common":false,"x":6,"y":3,"w":2,"h":1},
+        {"room_id":"Restrooms-F2","area_m2":50,"capacity":0,"zone":"Z3","is_common":true,"x":8,"y":0,"w":1,"h":2}
+      ]
+    },
+    {
+      "floor_id": "F3",
+      "name": "Second Floor",
+      "rooms": [
+        {"room_id":"Boardroom","area_m2":90,"capacity":22,"zone":"Z1","is_common":true,"x":0,"y":0,"w":3,"h":1},
+        {"room_id":"ExecOffice1","area_m2":30,"capacity":4,"zone":"Z1","is_common":false,"x":3,"y":0,"w":1,"h":1},
+        {"room_id":"ExecOffice2","area_m2":30,"capacity":4,"zone":"Z1","is_common":false,"x":4,"y":0,"w":1,"h":1},
+        {"room_id":"ExecOffice3","area_m2":30,"capacity":4,"zone":"Z1","is_common":false,"x":5,"y":0,"w":1,"h":1},
+        {"room_id":"ExecOffice4","area_m2":30,"capacity":4,"zone":"Z1","is_common":false,"x":6,"y":0,"w":1,"h":1},
+        {"room_id":"ConfF","area_m2":40,"capacity":10,"zone":"Z2","is_common":false,"x":0,"y":1,"w":2,"h":1},
+        {"room_id":"ConfG","area_m2":40,"capacity":10,"zone":"Z2","is_common":false,"x":2,"y":1,"w":2,"h":1},
+        {"room_id":"ConfH","area_m2":40,"capacity":10,"zone":"Z2","is_common":false,"x":4,"y":1,"w":2,"h":1},
+        {"room_id":"OpenOffice3","area_m2":220,"capacity":85,"zone":"Z2","is_common":true,"x":0,"y":2,"w":6,"h":3},
+        {"room_id":"Gym","area_m2":100,"capacity":20,"zone":"Z3","is_common":true,"x":6,"y":2,"w":2,"h":2},
+        {"room_id":"Restrooms-F3","area_m2":50,"capacity":0,"zone":"Z3","is_common":true,"x":7,"y":0,"w":1,"h":2}
+      ]
+    }
+  ]
+}

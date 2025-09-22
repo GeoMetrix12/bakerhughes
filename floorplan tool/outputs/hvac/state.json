@@ -1,0 +1,202 @@
+{
+  "counts": {
+    "OpenOffice": 6,
+    "Cafe": 4,
+    "ConfB": 0,
+    "ConfA": 0,
+    "Lobby": 6
+  },
+  "merge_plan": {
+    "assignments": {
+      "Lobby": {
+        "assigned": 6,
+        "active": true
+      },
+      "ConfA": {
+        "assigned": 0,
+        "active": false
+      },
+      "ConfB": {
+        "assigned": 0,
+        "active": false
+      },
+      "OpenOffice": {
+        "assigned": 6,
+        "active": true
+      },
+      "Cafe": {
+        "assigned": 4,
+        "active": true
+      }
+    },
+    "suggestions": [],
+    "saved_area_m2": 0
+  },
+  "sensors": {
+    "Lobby": {
+      "co2": 768.2266183134508,
+      "lux": 809.2755912984892,
+      "noise": 42.932782184070525,
+      "motion": 1,
+      "door": 0,
+      "rh": 55.59056943738808
+    },
+    "ConfA": {
+      "co2": 497.14845626826207,
+      "lux": 794.6913288773153,
+      "noise": 39.04329263262003,
+      "motion": 1,
+      "door": 0,
+      "rh": 50.53799627905437
+    },
+    "ConfB": {
+      "co2": 491.969715080573,
+      "lux": 653.2414981818874,
+      "noise": 34.8355441784374,
+      "motion": 1,
+      "door": 0,
+      "rh": 45.091035101658505
+    },
+    "OpenOffice": {
+      "co2": 948.2511285856745,
+      "lux": 654.70733633977,
+      "noise": 44.17863962733666,
+      "motion": 1,
+      "door": 0,
+      "rh": 64.840868517989
+    },
+    "Cafe": {
+      "co2": 619.2723731065091,
+      "lux": 653.7186234030399,
+      "noise": 41.08534537937412,
+      "motion": 1,
+      "door": 0,
+      "rh": 44.89569505703759
+    }
+  },
+  "last_commands": [
+    {
+      "ts": 1758200284.301116,
+      "room_id": "Lobby",
+      "device": "lights",
+      "command": "on",
+      "payload": {
+        "level": "dim"
+      }
+    },
+    {
+      "ts": 1758200284.3012538,
+      "room_id": "Lobby",
+      "device": "fan",
+      "command": "on",
+      "payload": {}
+    },
+    {
+      "ts": 1758200284.301321,
+      "room_id": "Lobby",
+      "device": "hvac",
+      "command": "comfort",
+      "payload": {}
+    },
+    {
+      "ts": 1758200284.301375,
+      "room_id": "ConfA",
+      "device": "lights",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.301427,
+      "room_id": "ConfA",
+      "device": "fan",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.301478,
+      "room_id": "ConfA",
+      "device": "hvac",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.301527,
+      "room_id": "ConfB",
+      "device": "lights",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.3015769,
+      "room_id": "ConfB",
+      "device": "fan",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.301621,
+      "room_id": "ConfB",
+      "device": "hvac",
+      "command": "off",
+      "payload": {
+        "reason": "vacant"
+      }
+    },
+    {
+      "ts": 1758200284.301664,
+      "room_id": "OpenOffice",
+      "device": "lights",
+      "command": "on",
+      "payload": {
+        "level": "dim"
+      }
+    },
+    {
+      "ts": 1758200284.3017118,
+      "room_id": "OpenOffice",
+      "device": "fan",
+      "command": "on",
+      "payload": {}
+    },
+    {
+      "ts": 1758200284.301759,
+      "room_id": "OpenOffice",
+      "device": "hvac",
+      "command": "comfort",
+      "payload": {}
+    },
+    {
+      "ts": 1758200284.301805,
+      "room_id": "Cafe",
+      "device": "lights",
+      "command": "on",
+      "payload": {
+        "level": "dim"
+      }
+    },
+    {
+      "ts": 1758200284.301847,
+      "room_id": "Cafe",
+      "device": "fan",
+      "command": "on",
+      "payload": {}
+    },
+    {
+      "ts": 1758200284.301894,
+      "room_id": "Cafe",
+      "device": "hvac",
+      "command": "comfort",
+      "payload": {}
+    }
+  ]
+}
